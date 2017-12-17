@@ -3,8 +3,8 @@ Apache Royale "Try-it-now" app
 
 1. Installation
 
-- Install [NodeJS](https://nodejs.org/en/)
-- Install Restify
+Install [NodeJS](https://nodejs.org/en/)
+Install Restify
 
     npm install restify
     
