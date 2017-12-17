@@ -5,9 +5,9 @@ Apache Royale "Try-it-now" app
 
 - Install [NodeJS](https://nodejs.org/en/)  
 - Install Restify  
-    npm install restify  
+    npm install restify
 - Instal uuid  
-    npm install uuid  
+    npm install uuid
 
 2. Clone server/server.js from this repo to your local machine
 
