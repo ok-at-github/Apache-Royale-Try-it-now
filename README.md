@@ -1,6 +1,6 @@
 # Apache-Royale-Try-it-now app
 
-# 1. Installation of required stuff
+# 1. Installation of NodeJS and required modules
 
 Install [NodeJS](https://nodejs.org/en/)  
 Install [Restify](http://restify.com/)
