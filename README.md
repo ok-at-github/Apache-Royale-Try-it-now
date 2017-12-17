@@ -3,11 +3,11 @@
 # 1. Installation
 
 Install [NodeJS](https://nodejs.org/en/)  
-Install Restify
+Install [Restify](http://restify.com/)
 
     npm install restify
     
-Instal uuid
+Instal [uuid](https://www.npmjs.com/package/uuid)
 
     npm install uuid
 
