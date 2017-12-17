@@ -3,12 +3,12 @@ Apache Royale "Try-it-now" app
 
 1. Installation
 
-Install [NodeJS](https://nodejs.org/en/)
+Install [NodeJS](https://nodejs.org/en/)  
 Install Restify
 
     npm install restify
     
-- Instal uuid
+Instal uuid
 
     npm install uuid
 
@@ -23,6 +23,14 @@ How to use
 Send a POST request with your Royale source code as payload:
 
     POST http://localhost:8080/apache/royale/compiler/targets/html
+    
+Payload
+
+    {
+        "source": "..." 
+    }
+    
+    
 
 Example
     {
