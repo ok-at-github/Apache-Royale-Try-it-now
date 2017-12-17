@@ -13,6 +13,7 @@ Instal [uuid](https://www.npmjs.com/package/uuid)
 
 # 2. Clone server/server.js from this repo to your local machine
 Search for
+
     const sdkPath
 in server.js and point it to your local "Royale jsonly SDK"
 
