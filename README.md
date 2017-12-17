@@ -50,4 +50,5 @@ For now, each request creates a new unique project direcory at server side.
 So we have implement some logic that takes care of removing all these directories.
 
 A more matured version should place users in the position to create, edit and share Royale code/projects.
+We also want to send the compiler log in real time back to the client by e.g. using sockets.
 
