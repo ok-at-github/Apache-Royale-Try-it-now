@@ -12,7 +12,9 @@ Instal [uuid](https://www.npmjs.com/package/uuid)
     npm install uuid
 
 # 2. Clone server/server.js from this repo to your local machine
-Search for const sdkPath and point it to your local Royale jsonly SDK
+Search for
+    const sdkPath
+in server.js and point it to your local "Royale jsonly SDK"
 
 # 3. Start Restify server
 
