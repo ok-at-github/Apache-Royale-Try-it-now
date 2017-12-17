@@ -17,7 +17,7 @@ Search for
     const sdkPath
 in server.js and point it to your local "Royale jsonly SDK"
 
-# 3. Start Restify server
+# 3. Start server
 
     node server.js
 
