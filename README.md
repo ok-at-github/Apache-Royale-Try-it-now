@@ -37,3 +37,13 @@ Response
         "compilerOutputURL": "http://localhost:8080/static/216108f0-e36c-11e7-805a-3dbc2fba1d86/compilerOutput.txt",
         "errorURL": "http://localhost:8080/static/216108f0-e36c-11e7-805a-3dbc2fba1d86/compilerError.txt"
     }
+    
+# 5. How it works
+
+The POST request initiates the creation of a unique Royale project directory at server side including a Main.mxml file that contains the Royale source code.  
+The project is compiled at server side and finally the service response with some particular URLs.
+For now, each request creates a new unique project direcory at server side.
+So we have implement some logic that takes care of removing all these directories.
+
+A more matured version should place users in the position to create, edit and share Royale code/projects.
+
