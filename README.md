@@ -1,19 +1,21 @@
 # Apache-Royale-Try-it-now
 Apache Royale "Try-it-now" app
 
-Installation
+1. Installation
 
-- Install NodeJS
+- Install [NodeJS](https://nodejs.org/en/)
 - Install Restify
-- Install uuid
+    npm install restify
+- Instal uuid
+    npm install uuid 
 
-Copy server/server.js to your local machine
+2. Clone server/server.js from this repo to your local machine
 
-Start Restify server
+3. Start Restify server
 
     node server.js
 
-Test it
+How to use
 
 Send a POST request with your Royale source code as payload:
 
