@@ -28,3 +28,12 @@ Payload
     {
         "source": "..." 
     }
+    
+Response
+
+    {
+        "_id": "216108f0-e36c-11e7-805a-3dbc2fba1d86",
+        "projectURL": "http://localhost:8080/static/216108f0-e36c-11e7-805a-3dbc2fba1d86/bin/js-debug/index.html",
+        "compilerOutputURL": "http://localhost:8080/static/216108f0-e36c-11e7-805a-3dbc2fba1d86/compilerOutput.txt",
+        "errorURL": "http://localhost:8080/static/216108f0-e36c-11e7-805a-3dbc2fba1d86/compilerError.txt"
+    }
