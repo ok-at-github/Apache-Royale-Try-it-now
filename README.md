@@ -23,7 +23,7 @@ Send a POST request with your Royale source code as payload:
 
     POST http://localhost:8080/apache/royale/compiler/targets/html
     
-Payload
+Payload (Make sure to escape the source code)
 
     {
         "source": "..." 
@@ -40,7 +40,7 @@ Response
     
 # 5. How it works
 
-The POST request initiates the creation of a unique Royale project directory at server side including a Main.mxml file that contains the Royale source code.  
+The POST request initiates the creation of a unique Royale project directory at server side including a Main.mxml file that contains the passed Royale source code.  
 The project is compiled at server side and finally the service response with some particular URLs.
 For now, each request creates a new unique project direcory at server side.
 So we have implement some logic that takes care of removing all these directories.
