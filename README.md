@@ -27,13 +27,13 @@ Send a POST request with your Royale source code as payload:
 
     POST http://localhost:8080/apache/royale/compiler/targets/html
     
-Payload (Make sure to escape the source code)
+Payload (Make sure to escape the source code):
 
     {
         "source": "..." 
     }
     
-Response
+Response:
 
     {
         "_id": "216108f0-e36c-11e7-805a-3dbc2fba1d86",
